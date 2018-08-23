@@ -11,7 +11,7 @@ class App extends Component {
 			textInput:"Hello There!!",
 			text2:"Push"
 		};
-		//this.handleChange = this.handleChange.bind(this);
+		this.handleChange = this.handleChange.bind(this);
 		this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
 	}
